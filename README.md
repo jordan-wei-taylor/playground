@@ -4,63 +4,23 @@
 
 This repository is designed for my students under CM50175 providing a simple tutorial in directory manipulation and virtual python environments.
 
-To run through this tutorial open a bash terminal and first execute the following
+There are two demo scripts, `directory-demo.py` and `script-demo.py` which should be executed by the following command
 
 ```console
-user@device:~$ git clone https://github.com/jordan-wei-taylor/playground.git; cd playground
+user@device:~$ python3 -m directory-demo
 ```
 
-and ensure the bash script files (.sh) have been given the rights to be executable by executing
+followed by
 
 ```console
-user@device:~$ chmod 777 *.sh
+user@device:~$ python3 -m script-demo
 ```
 
-To execute the bash files, please first ensure the commands `tree` and `python3` work. If both do not work install them using the command
+Please only press ENTER when prompted to do so and practice the commands outside of the demos to make sure you understand the commands!
 
-```console
-user@device:~$ sudo apt install tree python3.x python3.x-venv
-```
+<br>
 
-or to install only `tree`
-
-```console
-user@device:~$ sudo apt install tree
-```
-
-or to install only python3 with virtual environment
-
-```console
-user@device:~$ sudo apt install python3.x python3.x-venv
-```
-
-where `x` should be an integer. For example, on Ubuntu 20.04, python3.8 is the supported version of python3 and on Ubuntu 22.04, python3.10 is the supported version.
-
-The user should execute `directory.sh` by
-
-```console
-user@device:~$ ./directory.sh
-```
-
-then go through the directory demo
-
-```console
-user@device:~$ ./directory-demo.sh
-```
-
-Once the user has completed it, they are recommended to practice some of the commands. Upon feeling more comfortable the user should execute
-
-```console
-user@device:~$ ./script.sh
-```
-
-and attempt to show the help documentation of the newly generated `script.py`
-
-```console
-user@device:~$ python3 -m script --help
-```
-
-and follow the debugging text until it can successfully run.
+---
 
 <br>
 
